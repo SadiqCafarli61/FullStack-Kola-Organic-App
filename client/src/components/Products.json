@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704301069/banner1_nckmzy.jpg"
+    },
+    {
+        "id": 2,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704301082/banner2_kuj8lx.jpg"
+    },
+    {
+        "id": 3,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704301091/banner3_av7ha5.jpg"
+    },
+    {
+        "id": 4,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704301092/banner4_wiyt1v.jpg"
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Orange",
+        "category":"latest",
+        "price": "$20.50",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product5_xuqrbq.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cabbage",
+        "category":"latest",
+        "price": "$35.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product2_vyeozh.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pomegranate",
+        "category":"latest",
+        "price": "$78.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product8_um15bo.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Lemon",
+        "category":"latest",
+        "price": "$90.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product6_ctljqw.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Peaches",
+        "category":"latest",
+        "price": "$67.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363930/peaches_byt0h6.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Spich chili Pepper",
+        "category":"latest",
+        "price": "$98.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product4_jqeexz.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Cucumis Melo",
+        "category":"latest",
+        "price": "$85.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364375/wallnut_so8v7u.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Apple",
+        "category":"latest",
+        "price": "$36.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364531/apple_cf1b5k.jpg"
+    },
+    {
+        "id": 9,
+        "category": "Top Rating",
+        "name": "Grapes",
+        "price": "$155.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364676/grapes_qfcmh5.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Banana",
+        "category": "TopRating",
+        "price": "$20.30",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364675/banana_f4n6gl.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mustard",
+        "category": "Top Rating",
+        "price": "$214.22",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704368234/cucumber_aur96t.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Salad",
+        "price": "$21.00",
+        "category": "Top Rating",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364666/salad_y9gpgy.jpg"
+    },
+    {
+        "id": 13,
+        "name":"Chili",
+        "price": "$13.00",
+        "category": "Best Sellers",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704388549/chili_dlxxpo.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Grapes",
+        "price":"$155.00",
+        "category": "Best Sellers",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364676/grapes_qfcmh5.jpg"
+    }
+
+]

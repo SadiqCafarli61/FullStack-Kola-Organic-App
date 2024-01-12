@@ -1,0 +1,110 @@
+
+
+[
+    {
+        "id": 1,
+        "name": "Cucumber",
+        "category": "Vegetable",
+        "price": "$12.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704368234/cucumber_aur96t.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Orange",
+        "category":"Fruit",
+        "price": "$20.50",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product5_xuqrbq.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cabbage",
+        "category":"Vegetable",
+        "price": "$35.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product2_vyeozh.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pomegranate",
+        "category":"Vegetable",
+        "price": "$78.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product8_um15bo.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Lemon",
+        "category":"Fruit",
+        "price": "$90.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product6_ctljqw.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Peaches",
+        "category":"Fruit",
+        "price": "$67.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363930/peaches_byt0h6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Spich chili Pepper",
+        "category":"Bread",
+        "price": "$98.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704363038/product4_jqeexz.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Cucumis Melo",
+        "category":"Vegetable",
+        "price": "$85.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364375/wallnut_so8v7u.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Apple",
+        "category":"Fruit",
+        "price": "$36.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364531/apple_cf1b5k.jpg"
+    },
+    {
+        "id": 10,
+        "category": "Fruit",
+        "name": "Grapes",
+        "price": "$155.00",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364676/grapes_qfcmh5.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Banana",
+        "category": "Fruit",
+        "price": "$20.30",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364675/banana_f4n6gl.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Mustard",
+        "category": "Bread",
+        "price": "$214.22",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704368234/cucumber_aur96t.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Salad",
+        "price": "$21.00",
+        "category": "Vegetable",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364666/salad_y9gpgy.jpg"
+    },
+    {
+        "id": 14,
+        "name":"Chili",
+        "price": "$13.00",
+        "category": "Fruit",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704388549/chili_dlxxpo.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Grapes",
+        "price":"$155.00",
+        "category": "Fruit",
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1704364676/grapes_qfcmh5.jpg"
+    }
+
+]

@@ -1,0 +1,71 @@
+
+.range-input input{
+    accent-color: green;
+}
+
+.buttons button{
+    width: 90px;
+}
+
+.hover-content{
+    position: absolute;
+    top: 150px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    left: 100px;
+    
+}
+.card:hover .hover-content{
+    display: flex;
+}
+.hover-content .icon{
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    border: 1px solid rgb(47, 161, 47);
+    margin: 6px;
+    transition:  colors 0.3s ease-in-out;
+    height: 35px;
+    color: rgb(47, 161, 47);
+}
+.hover-content .icon:hover{
+    background-color: rgb(47, 161, 47);
+    color: #fff;
+}
+
+@media(max-width:1300px){
+    .shop-section .shop .left-side{
+        width: 300px !important;
+    }
+   
+    .shop-section .shop .right-side .card{
+        width: 250px !important
+    }
+    .shop-section .shop .right-side .card .card__top{
+        width: 250px !important;
+    }
+    .shops{
+display: grid;
+grid-template-columns: repeat(2,2fr);
+    }
+}
+
+
+@media(max-width:991px){
+    .shop-section .shop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:768px){
+     .shops{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+}
+

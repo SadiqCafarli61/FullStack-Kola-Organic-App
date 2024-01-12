@@ -1,0 +1,34 @@
+ form .mb-3{
+    margin: 20px;
+ }
+
+ @media(max-width:1200px){
+
+   .left-side{
+    width: 300px;
+   }
+    .input-section{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+ }
+
+ @media(max-width:991px){
+    .contact-section .contact-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact-section .contact-items .right-side  .input-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
+
+ @media(max-width:500px){
+    textarea{
+        width: 300px !important;
+    }
+ }

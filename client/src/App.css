@@ -1,0 +1,383 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ *{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ }
+
+ .overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+transition: width 0.6s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 0;
+  background-color: #455c10;
+  overflow: hidden;
+  z-index: 3;
+ }
+ .aktif{
+ width: 100%;
+ }
+ .barButton{
+  display: none;
+ }
+ .overlay .overlay-menu{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ .overlay .overlay-menu a{
+  margin-top: 15px;
+  text-decoration: none;
+  color: #eee;
+  font-size: 22px;
+  transition: all 0.5s ease-in-out;
+ }
+ .overlay .overlay-menu a:hover{
+  color: #fff;
+ }
+ .header-section  .links a{
+  text-decoration: none;
+  color:  #111;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  transition:  all 0.4s ease-in-out;
+ }
+
+ .bg{
+  background-color: rgb(10, 126, 10);
+  color: #fff !important;
+ }
+
+ .header-section .links a:hover{
+  color: #86ba09;
+ }
+.header-section .icons .icon{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+
+  transition: all 0.4s ease-in-out;
+}
+.header-section .icons .icon:hover{
+  color: #86ba09;
+}
+
+
+.user-menu{
+  position: relative !important;
+  display: inline-block;
+}
+.user-menu .menu-items{
+
+  display: none;
+
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  margin-left: -50px !important;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.open{
+  display: flex !important;
+}
+.user-menu .menu-items a{
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  color: #111;
+  transition: all 0.4s ease-in-out;
+}
+.user-menu .menu-items a:hover{
+  color: #86ba09;
+}
+
+
+.main-section .image{
+  animation: image 3s linear infinite;
+  width: 200px;
+  overflow: hidden;
+
+}
+.main-section .image img{
+  width: 100%;
+
+  overflow: hidden;
+}
+.nextButton{
+  position: absolute;
+z-index: 3;
+top:  100px;
+}
+
+
+
+
+
+.appleImg{
+  position: absolute;
+  top: 140px;
+  animation: apple 2s linear infinite;
+  left: 30%;
+}
+ .image .strawberry{
+  animation: strawberry 2s linear infinite !important;
+}
+
+
+
+.product-data-section {
+  margin-top: -100px;
+}
+.cart__item img{
+  transition: all 0.5s ease;
+  overflow: hidden;
+
+}
+.cart__item img:hover{
+  transform: scale(1.045);
+  
+}
+.featured-section .product-data{
+  position: relative;
+}
+
+.featured-section .product-data  .hover-content{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-section .product-data .icon{
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   border-radius: 50%;
+   padding: 5px;
+   margin: 5px;
+   border: 1px solid rgb(24, 173, 24);
+   color: rgb(24, 173, 24);
+   transition:  all 0.6s ease-in-out;
+}
+.featured-section .product-data .card:hover .hover-content{
+  display: flex !important;
+}
+
+.product-data .icon:hover{
+  color: #fff;
+  background-color: rgb(24, 173, 24);
+}
+.featured-section .button-items button{
+  color: #333;
+  font-size: 500;
+}
+
+.deal-week-section{
+  background-image: url(./components/banner.jpg);
+  height: 55vh;
+}
+.footer-section .text{
+  margin-top: 20px;
+}
+
+
+@keyframes apple {
+  0%{
+    transform:  translate(-15px, 0);
+  }
+  50%{
+transform: translate(0, -15px);
+  }
+  100%{
+    transform: translate(-15px, 0);
+  }
+}
+
+@keyframes strawberry {
+  0%{
+    transform:  translate(-15px, 0);
+  }
+  50%{
+transform: translate(0, -15px);
+  }
+  100%{
+    transform: translate(-15px, 0);
+  }
+}
+.organic-lists .logo{
+  cursor: pointer;
+}
+.organic-lists .logo{
+  width: 140px;
+}
+.organic-lists .logo img{
+  width: 100%;
+}
+
+.notification-email{
+  background-image: url(./components/notify.jpg);
+}
+
+
+@media(max-width:600px){
+  .notification-email{
+    height: 100vh;
+  }
+  .notification-email form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+@media(max-width:1200px){
+  .featured-section .product-data{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+  }
+  .list-data{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+  }
+}
+
+@media(max-width:991px){
+  .header-section .links{
+    display: none;
+  }
+  .barButton{
+    display: flex;
+    z-index: 3;
+  }
+  .home .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+    
+  }
+ 
+
+ .home{
+display: flex;
+
+justify-content: center;
+align-items: center;
+ }
+
+ .home h2{
+  font-size: 35px;
+ }
+ .home .content{
+  text-align: center;
+ }
+ .home .right-side .image {
+  display: flex;
+  margin: 10px auto;
+ }
+ .featured-section .product-data{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+.list-data{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+.footer-section .footer{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-section .footer img{
+  display: block;
+  margin: 0 auto;
+}
+.footer-section .footer .bottom{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-direction: column;
+}
+
+ 
+}
+
+
+@media(max-width:768px){
+
+
+  .home .content{
+    text-align: center;
+  }
+  .home .left-side h2{
+    font-size: 26px;
+  }
+
+
+  .home .right-side .image{
+    width: 150px;
+  }
+  .featured-section .product-data{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featured-section  .button-items button{
+    font-size: 14px;
+  }
+  .deal-week-section{
+    height: 100%;
+  }
+  .deal-week-section .date{
+ display: grid !important;
+ margin:  0 auto;
+ place-items: center;
+ grid-template-columns: repeat(2,2fr);
+  }
+  .deal-week-section .date .box {
+  margin-top: 20px;
+
+  }
+  .list-data{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .organic-lists {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 30px auto;
+  }
+  .notification-email{
+    height: 60vh;
+  }
+  .notification-email form input{
+    width: 300px;
+  }
+  .notification-email form button{
+    margin-top: 30px;
+  }
+  
+}
